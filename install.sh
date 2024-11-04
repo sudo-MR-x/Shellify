@@ -2,27 +2,16 @@
 
 # Define colors for output
 RED="\033[1;31m"
+BLUE="\033[1;34m"
 GREEN="\033[1;32m"
 RESET="\033[0m"
 
-echo -e "${GREEN}                                                                    ${RESET}"
-echo -e "${GREEN}            __                  __  __  __   ______                 ${RESET}"
-echo -e "${GREEN}           /  |                /  |/  |/  | /      \                ${RESET}"
-echo -e "${GREEN}   _______ $$ |____    ______  $$ |$$ |$$/ /$$$$$$  | __    __      ${RESET}"
-echo -e "${GREEN}  /       |$$      \  /      \ $$ |$$ |/  |$$ |_ $$/ /  |  /  |     ${RESET}"
-echo -e "${GREEN} /$$$$$$$/ $$$$$$$  |/$$$$$$  |$$ |$$ |$$ |$$   |    $$ |  $$ |     ${RESET}"
-echo -e "${GREEN} $$      \ $$ |  $$ |$$    $$ |$$ |$$ |$$ |$$$$/     $$ |  $$ |     ${RESET}"
-echo -e "${GREEN}  $$$$$$  |$$ |  $$ |$$$$$$$$/ $$ |$$ |$$ |$$ |      $$ \__$$ |     ${RESET}"
-echo -e "${GREEN} /     $$/ $$ |  $$ |$$       |$$ |$$ |$$ |$$ |      $$    $$ |     ${RESET}"
-echo -e "${GREEN} $$$$$$$/  $$/   $$/  $$$$$$$/ $$/ $$/ $$/ $$/        $$$$$$$ |     ${RESET}"
-echo -e "${GREEN}                                                    /  \__$$ |      ${RESET}"
-echo -e "${GREEN}                                                    $$    $$/       ${RESET}"
-echo -e "${GREEN}                                                     $$$$$$/        ${RESET}"
-echo -e "${GREEN}                                                                    ${RESET}"
+echo -e "${BLUE}$(figlet -f slant shellify)${RESET}"
+
 
 # Print contact information
 echo -e "${GREEN}Created by: mayank singh${RESET}"
-echo -e "${GREEN}GitHub: https://github.com/sudo-MR_x${RESET}"
+echo -e "${GREEN}GitHub: https://github.com/sudo-MR-x${RESET}"
 echo ""
 chmod +x *
 
