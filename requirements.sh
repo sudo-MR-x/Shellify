@@ -22,6 +22,12 @@ else
     echo -e "${RED}Failed to install bc.${RESET}"
 fi
 
+if pkg install -y figlet; then
+    echo -e "${GREEN}figlet installed successfully.${RESET}"
+else
+    echo -e "${RED}Failed to install figlet.${RESET}"
+fi
+
 # Optional: Install SVN
 if pkg install -y subversion; then
     echo -e "${GREEN}SVN installed successfully.${RESET}"
