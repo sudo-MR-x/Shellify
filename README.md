@@ -15,7 +15,7 @@ To install Shellify, simply run the provided installation script. It will guide 
 
 1. **Clone the repository**:
    ```
-   git clone <your-github-repo-link>
+   git clone https://github.com/sudo-MR-x/Shellify.git
    cd Shellify
    ```
 2. **Run the installation script**:
